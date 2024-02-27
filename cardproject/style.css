@@ -1,0 +1,51 @@
+.card {
+    width: 450px;
+    height: 485px;
+    border: 10px solid black;
+    margin: 0 auto;
+    transition: 1s;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px yellowgreen;
+} 
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.desc {
+    padding: 0 0 0 20px;
+    color: yellowgreen;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px black;
+    background-color: white;   
+}
+
+/*my card */
+.card1 {
+    width: 720px;
+    height: 1700px;
+    border: 20px solid black;
+    margin: 0 0 0 1100px;
+    transition: 1s;
+    box-shadow: 2px 2px 10px green;
+}
+
+
+img {
+    border-radius: 25px 25px 0 0;
+}
+
+.desc1 {
+    padding: 0 0 0 20px;
+    color: yellowgreen;
+}
+
+.card1:hover {
+    box-shadow: 10px 20px 8px black;
+    background-color: white;
+}
+html {
+    background-image: url("backgroundimgcard.jpg");
+    background-size: cover;
+}
